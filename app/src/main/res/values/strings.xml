@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">SimpleFitTracker</string>
     <string name="imc_label">IMC</string>
+    <string name="btn_calculate_label">Calcular</string>
+    <string name="height_label">Altura (cm)</string>
+    <string name="weigth_label">Peso (Kg)</string>
+    <string name="txt_desc">exemplo</string>
 </resources>
