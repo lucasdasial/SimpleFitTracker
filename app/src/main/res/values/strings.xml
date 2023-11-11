@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SimpleFitTracker</string>
+    <string name="imc_label">IMC</string>
+</resources>
