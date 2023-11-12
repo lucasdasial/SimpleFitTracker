@@ -2,11 +2,10 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_height="wrap_content"
     android:layout_width="match_parent"
-    android:padding="16dp"
+    android:layout_height="wrap_content"
     android:layout_gravity="center"
-    >
+    android:padding="22dp">
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
@@ -18,36 +17,30 @@
 
         <TextView
             android:id="@+id/textView"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/txt_desc"
             android:layout_marginBottom="8dp"
-            />
+            android:text="@string/imc_desc" />
 
         <EditText
-            android:id="@+id/editTextText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="number"
+            style="@style/EditTextApp"
+            android:id="@+id/editTextWeight"
             android:hint="@string/weigth_label"
-            android:layout_marginBottom="16dp"/>
+            android:inputType="number"
+            android:maxLength="3"
+             />
 
         <EditText
-            android:id="@+id/editTextText2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="number"
+            style="@style/EditTextApp"
+            android:id="@+id/editTextHeight"
             android:hint="@string/height_label"
-            android:layout_marginBottom="16dp"/>
+            android:inputType="number"
+            android:maxLength="3"
+            />
 
         <Button
+            style="@style/BtnAppFull"
             android:id="@+id/btn_calculate"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/btn_calculate_label"
-            android:backgroundTint="@color/black"
-            />
+            android:text="@string/btn_calculate_label" />
     </androidx.appcompat.widget.LinearLayoutCompat>
 </ScrollView>
